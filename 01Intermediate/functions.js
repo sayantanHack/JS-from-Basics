@@ -1,5 +1,13 @@
 // ALL about functions
 
+/* Important note : ------ Difference between Parameter and Argument  -------
+    Parameter : When a function is initializing something into it , then its called parameter .
+    Arguement : When a function is called and the values are passed while calling is call arguement .
+    For example :
+     function Name(parameter){ function blocks}
+     Name(arguement);
+*/
+
 // The bellow sayaHello is a fucntion decleration
 let sayHello = function(para) {
   console.log(".......Getting from user");
