@@ -19,3 +19,12 @@ The week days in reverse oder
 for(let index = days.length -1 ;index>=0 ; index--){
     console.log('Days',index+1,'of week --', days[index]);
 }
+
+//There have another methodf to loop through any object or array  ...
+// This is an call back function
+
+// Lets make a function for congrats each days.
+let Congo = function(d,index) {
+  console.log(`Day ${index+1} : Hey Congrats today is ${d}day. The index is = ${index}`);
+}
+days.forEach(Congo)
