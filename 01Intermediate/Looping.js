@@ -28,3 +28,11 @@ let Congo = function(d,index) {
   console.log(`Day ${index+1} : Hey Congrats today is ${d}day. The index is = ${index}`);
 }
 days.forEach(Congo)
+
+/* In js functions are bobjects so you can also do like this commented code -
+    days.forEach(function(d,index){
+    console.log(`This is ${d}day , & the index is ${index}`);
+  })
+
+uncomment the above code & check.
+*/
