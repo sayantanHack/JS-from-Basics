@@ -4,7 +4,7 @@ let myTodo = {
   meetDone: 0,
 
   addMeeting: function(){
-    console.log("Hwy, I`m function");
+    console.log("Hwy, I`m Method");
     console.log(this);
   }
 }
@@ -14,7 +14,7 @@ let myTodo = {
 myTodo.addMeeting(4)
 
 
-// access the all property of my obj
+// access the all property of my object
 let myTodoTwo = {
   day: 'Friday',
   meeting: 5,
