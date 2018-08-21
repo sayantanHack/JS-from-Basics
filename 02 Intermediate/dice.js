@@ -16,3 +16,11 @@ console.log(Math.floor(floatResult));
 
 console.log('This is the original random num:',Math.random());
 console.log('Random number multiplied by 10: ',Math.random() * 10);
+//  ------  Now the dice ball concept -----
+
+let upper = 6
+let lower = 1
+
+let myRandom = Math.floor(Math.random() * (upper - lower+ 1)) + lower
+
+console.log(`Dice rolling : ${myRandom}`);
