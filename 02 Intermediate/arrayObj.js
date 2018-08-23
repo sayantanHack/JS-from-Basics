@@ -22,6 +22,7 @@ const index = newTodos.findIndex(function(todo,index){
 console.log(index);
 
 // user can pass new todos & title -----
+// ------   Method 1 ---------
 
 const findTodo = function(myTodos, title){
   const index = myTodos.findIndex(function(todo, index){
@@ -32,3 +33,16 @@ const findTodo = function(myTodos, title){
 
 let printMe = findTodo(newTodos, 'python tutorial') // not case sensetive
 console.log(printMe);
+
+// ------   Method 2 ---------
+/* uncomment & use 
+const findTodo = function(myTodos, title){
+  consttitleReturned = myTodos.find(function(todo, index){
+    return todo.title.toLowerCase() === title.toLowerCase()
+  })
+  return titleReturned
+}
+
+let printMe = findTodo(newTodos, 'python tutorial')
+console.log(printMe);
+*/
