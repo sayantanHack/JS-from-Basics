@@ -17,3 +17,21 @@ const say =(name) => {
 console.log(say("Sayantan"));
 
 // reduce the code syntax & make the code is more flexible.
+
+const todos = [{
+  title: "make tutorial",
+  isDone: true,
+
+},{
+  title: 'Python Tutorial',
+  isDone: false
+}
+]
+// ----  using normal funtion -----
+const thingsDone = todos.filter( function(todo){
+  return todo.isDone === true
+})
+
+// -----  Converting the Arrow funtions  ----
+
+console.log(thingsDone);
