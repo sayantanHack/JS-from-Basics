@@ -2,8 +2,8 @@
 
 // Let`screate  a simple function
 
-const sayHello = function(){
-  retrun "Hey there!! "+ name+"!!"
+const sayHello = function(name){
+  return "Hey there!! "+ name +"!!"
 }
 
 console.log(sayHello('Sayantan'));
