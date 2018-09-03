@@ -1,4 +1,4 @@
-var john = {
+var John = {
   name:"I`m john",
   age : 15,
   isActive: true
@@ -16,5 +16,12 @@ var Sam = {
   isActive: false
 }
 
-let users = new Map()
+let users = new Map()  //map is an obj
 console.log(typeof(users));
+
+users.set('John',John)
+users.set('marry',Mary)
+users.set('sam',Sam)
+
+// Maps always returns iteratable .. which is in loop
+console.log(users);
