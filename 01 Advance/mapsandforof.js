@@ -47,3 +47,9 @@ for (const [key, value] of users.entries()){
 }
 
 users.forEach((values, keys)) => console.log(key + '--->' + value.name);
+
+var arrofArr =  [['one','1'], ['two', '2'], ['three', '3']]
+
+var newMap = new Map(arrofArr)
+
+console.log(newMap);
