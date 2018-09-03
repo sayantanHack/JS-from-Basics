@@ -24,4 +24,11 @@ users.set('marry',Mary)
 users.set('sam',Sam)
 
 // Maps always returns iteratable .. which is in loop
-console.log(users);
+console.log(users.size);
+// get('key')  in case of index it will be get[val]
+console.log(users.get('sam'));
+console.log(users.values());
+
+for (const key of users.keys()){
+  console.log(key);
+}
