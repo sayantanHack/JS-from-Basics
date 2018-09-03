@@ -29,6 +29,14 @@ console.log(users.size);
 console.log(users.get('sam'));
 console.log(users.values());
 
+
+// iterate for keys
 for (const key of users.keys()){
   console.log(key);
+}
+
+// iterate for values
+
+for( const value of users.values()){
+  console.log(value.name, value.age , value.isActive);
 }
