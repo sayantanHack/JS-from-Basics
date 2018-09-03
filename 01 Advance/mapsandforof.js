@@ -40,3 +40,10 @@ for (const key of users.keys()){
 for( const value of users.values()){
   console.log(value.name, value.age , value.isActive);
 }
+
+
+for (const [key, value] of users.entries()){
+  console.log(key + '--->' + value.name);
+}
+
+users.forEach((values, keys)) => console.log(key + '--->' + value.name);
