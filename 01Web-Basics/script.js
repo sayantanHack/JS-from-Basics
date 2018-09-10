@@ -18,3 +18,7 @@ myPElem.forEach(function(p){
 // same thing in arrow function
 
 myPElements.forEach( (p) => p.textContent = " Assignment Completed " );﻿
+
+document.title = "Now I`ve changed"
+
+console.log(document.title);
