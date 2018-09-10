@@ -14,3 +14,7 @@ const myPElem = document.querySelectorAll('p')
 myPElem.forEach(function(p){
   p.textContent = 'I am changed into looping ...'
 })
+
+// same thing in arrow function
+
+myPElements.forEach( (p) => p.textContent = " Assignment Completed " );﻿
