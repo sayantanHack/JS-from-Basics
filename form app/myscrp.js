@@ -4,6 +4,6 @@ document.querySelector('button').addElementListener('click',(event)=>{
 })
 // tracking the input form
 
-document.querySelector('#myform').addElementListener('input',(event)=>{
+document.querySelector('#myform').addElementListener('change',(event)=>{
   console.log(event.target.value);
-} )
+})
