@@ -25,5 +25,3 @@ three();
  Here at the First step the function one()is called
  next two() then three() if we remove two function then three cannot be called.
  three cannot happen untill two is done two cannot happen untill one is done
-
-//
