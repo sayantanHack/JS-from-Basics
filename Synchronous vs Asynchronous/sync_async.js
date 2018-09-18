@@ -22,4 +22,6 @@ three();
 /* here the functions are Synchronous so it`s arranged in chronological order .
  If you wanna rearrange the order of functions then log will not be happen.
  This is arranged in Call stacks.
- Here at the First step the function one()is called 
+ Here at the First step the function one()is called
+ next two() then three() if we remove two function then three cannot be called.
+ three cannot happen untill two is done two cannot happen untill one is done
