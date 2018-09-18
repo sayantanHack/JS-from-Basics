@@ -25,3 +25,8 @@ function addTwo(x,y){
   return result;
 }
  // now pass the all abobe things to test the accuricy
+
+// you can test these functions by expect function
+// type this in browser console
+
+expect(add(0.2, 0.3)).toBe(0.5);
