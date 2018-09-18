@@ -12,7 +12,7 @@ console.log(typeof add(0.2,0.3));  // it is float
 console.log(add('2','3'));  // 23 it will not be added
 console.log(typeof add('2','3'));  // cause its a string
 
-// let`s check the & make it more affective
+//-------------- let`s check the & make it more affective ----------
 
 function addTwo(x,y){
   if((typeof x && typeof y) !== 'number'){
@@ -25,4 +25,3 @@ function addTwo(x,y){
   return result;
 }
  // now pass the all abobe things to test the accuricy
- 
