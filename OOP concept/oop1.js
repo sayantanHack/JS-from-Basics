@@ -8,6 +8,10 @@ class  User{
     this.email = email;
     this.password = password;
   }
+// lets create a static method
+  static countUser(){
+      console.log("There have 50 users");
+  }
 
   registered(){    // its a method
     console.log(this.userName+" is now registered.");
@@ -17,4 +21,6 @@ class  User{
 // Now bob is calling the User method using the his name mail & pass
 let bob = new User('Bob','bob@email.com','123456');
 // bob is calling register method
-bob.register();
+bob.registered();
+
+User.countUser();
