@@ -30,3 +30,4 @@ class Member extends User{
 
 let Mike = new Member("Mike",'mike@email.com','1234', 'Standard');
 Mike.getPackage();
+Mike.registered(); // ading the method of the another class
