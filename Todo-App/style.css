@@ -1,3 +1,20 @@
 body{
   background-color: #806199;
 }
+
+#container{
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  background: White;
+  height: 600px;
+  overflow-y: auto;
+  color: Black;
+  border: 10px solid #01a3a4;
+  border-radius: 10px;
+}
+
+#container h1 {
+  
+}
