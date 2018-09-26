@@ -111,3 +111,18 @@ body{
   background-color: #2980b9;
   border-radius: 10%;
 }
+
+#container .controls #remove {
+  background-color: #c0392b;
+  border-radius: 10px;
+}
+
+#container .mycheck {
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.visual {
+  opacity: 1 !important;
+  border-radius: 10px;
+}
