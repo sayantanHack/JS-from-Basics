@@ -1,2 +1,6 @@
-var h = document.createElement('h1')
-var myValue = document.createTextNode('Hello guys!!')
+var val = 5;
+
+while (val >0) {
+    console.log(val);
+    val--; // or val = val-1
+}
