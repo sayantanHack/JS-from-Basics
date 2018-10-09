@@ -17,5 +17,21 @@ function addItem() {
 if(item === ''){
   return false;
   }
+else{
+  // create li
+  li = document.createElement('li')
+  // creating checkbox
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.setAttribute('id','check');
+  // create label
+  var label = document.createElement('label');
+  label.setAttribute('for','item') //optional
+
+  // adding these to page
+  
+
+  }
+
 
 }
