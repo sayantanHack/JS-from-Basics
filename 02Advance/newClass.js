@@ -8,7 +8,7 @@ class User {
   // new method user defined
 // inside of the Class we no need to write the function keyword before the function name
 
-    nofullName(){
+    fullName(){
       let fullName = `${this.first} ${this.last} is my full name.`
       return fullName;
     }
@@ -19,4 +19,4 @@ class User {
 const john = new User('John',"Datta",36)
 const sammy = new User("Sammy","Paul",23)
 
-console.log(sammy.nofullName());
+console.log(sammy.fullName());
