@@ -8,3 +8,5 @@ There have few changes after adding ES that is itterator , arrow function , Clas
 
 ## What is ES2015
  basically ES was started from 2015 after that all changes are made all in many versions .
+
+ mainly JS is upto ES5 after ES5 there have a huuuuggggeee change and ES6 & further versions came. 
