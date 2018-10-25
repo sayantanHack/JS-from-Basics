@@ -1,3 +1,10 @@
 # What is ES6
 
-Initially JS was not that powerful or easy to use . Ecma Script is introduced for upgrading the JS . The OOP Class concept was not there in JS , But after ES6 it included 
+Initially JS was not that powerful or easy to use . Ecma Script is introduced for upgrading the JS . The OOP Class concept was not there in JS , But after ES6 it included .
+
+## Few changes :
+
+There have few changes after adding ES that is itterator , arrow function , Class , inheritence.
+
+## What is ES2015
+ basically ES was started from 2015 after that all changes are made all in many versions .
