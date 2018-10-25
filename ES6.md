@@ -13,4 +13,6 @@ There have few changes after adding ES that is itterator , arrow function , Clas
 
 ## What is ES Next ?
 
-The Beta version is ES Next
+The Beta version is ES Next.
+
+## Babel 
