@@ -1,4 +1,4 @@
-<h1 allign="center">Contact List App</h1>
+<h1 align="center">Contact List App</h1>
 
 ## What the fish ??
 
