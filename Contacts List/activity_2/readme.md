@@ -7,3 +7,4 @@ The Contact list is a simple web app made by JS. There I have used OOP & array .
 Untill user wanna finish this it will be going on & on & on........
 
 ### How it looks like ?
+Click the right button of the mouse , Open Inspect Element . Then click on the console. Then reloadthe page & enjoy. :smiley: :v:
