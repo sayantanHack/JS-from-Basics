@@ -2,4 +2,8 @@
 
 ## What the fish ??
 
-The Contact list isa simple web app.
+The Contact list is a simple web app made by JS. There I have used OOP & array .
+2 contacts were there default there. User can see the contacts also can add contacts.
+Untill user wanna finish this it will be going on & on & on........
+
+### How it looks like ?
