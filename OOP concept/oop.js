@@ -1,15 +1,16 @@
 class BankAccount {
   
+  // this is constructor for defining
   constructor (owner, balance){
     this.owner = owner;
     this.balance = balance;
   }
-  
+  // These are the fuctions
   showBalance(){
     console.log("Balance is : "+ this.balance+ ' EUR');
   }
   
-  wara(amount){
+  deposit(amount){
     console.log("Depositing "+ amount+ " EUR");
     this.balance += amount;
     this.showBalance();
